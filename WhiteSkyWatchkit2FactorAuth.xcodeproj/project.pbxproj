@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A717F8E1AED9C350099FD7B /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A717F8C1AED9C350099FD7B /* BrowserViewController.swift */; };
+		0A717F8F1AED9C350099FD7B /* LoginSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A717F8D1AED9C350099FD7B /* LoginSetupViewController.swift */; };
+		0A717F941AED9E000099FD7B /* WhiteSkyCoreSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A717F901AED9C610099FD7B /* WhiteSkyCoreSdk.framework */; };
+		0A717F951AED9E000099FD7B /* WhiteSkyCoreSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A717F901AED9C610099FD7B /* WhiteSkyCoreSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A8D892A1AED8B07000DE760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D89291AED8B07000DE760 /* AppDelegate.swift */; };
+		0A8D892C1AED8B07000DE760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D892B1AED8B07000DE760 /* ViewController.swift */; };
+		0A8D892F1AED8B07000DE760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D892D1AED8B07000DE760 /* Main.storyboard */; };
+		0A8D89311AED8B07000DE760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D89301AED8B07000DE760 /* Images.xcassets */; };
+		0A8D89341AED8B07000DE760 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D89321AED8B07000DE760 /* LaunchScreen.xib */; };
+		0A8D89401AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D893F1AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.swift */; };
+		0A8D89531AED8B65000DE760 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D89521AED8B65000DE760 /* InterfaceController.swift */; };
+		0A8D89551AED8B65000DE760 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D89541AED8B65000DE760 /* NotificationController.swift */; };
+		0A8D89591AED8B65000DE760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D89581AED8B65000DE760 /* Images.xcassets */; };
+		0A8D895D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D895C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app */; };
+		0A8D89651AED8B65000DE760 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D89631AED8B65000DE760 /* Interface.storyboard */; };
+		0A8D89671AED8B65000DE760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D89661AED8B65000DE760 /* Images.xcassets */; };
+		0A8D896A1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A8D894D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8D893A1AED8B07000DE760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8D891C1AED8B07000DE760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8D89231AED8B07000DE760;
+			remoteInfo = WhiteSkyWatchkit2FactorAuth;
+		};
+		0A8D895E1AED8B65000DE760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8D891C1AED8B07000DE760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8D895B1AED8B65000DE760;
+			remoteInfo = "WhiteSkyWatchkit2FactorAuth WatchKit App";
+		};
+		0A8D89681AED8B65000DE760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8D891C1AED8B07000DE760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8D894C1AED8B65000DE760;
+			remoteInfo = "WhiteSkyWatchkit2FactorAuth WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A717F961AED9E000099FD7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A717F951AED9E000099FD7B /* WhiteSkyCoreSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D89711AED8B65000DE760 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A8D896A1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A717F8C1AED9C350099FD7B /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		0A717F8D1AED9C350099FD7B /* LoginSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSetupViewController.swift; sourceTree = "<group>"; };
+		0A717F901AED9C610099FD7B /* WhiteSkyCoreSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WhiteSkyCoreSdk.framework; sourceTree = "<group>"; };
+		0A717F921AED9D760099FD7B /* WhiteSkyWatchkit2FactorAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WhiteSkyWatchkit2FactorAuth.entitlements; sourceTree = "<group>"; };
+		0A717F931AED9D920099FD7B /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WhiteSkyWatchkit2FactorAuth WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		0A8D89241AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteSkyWatchkit2FactorAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D89281AED8B07000DE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8D89291AED8B07000DE760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A8D892B1AED8B07000DE760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A8D892E1AED8B07000DE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A8D89301AED8B07000DE760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A8D89331AED8B07000DE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A8D89391AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteSkyWatchkit2FactorAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D893E1AED8B07000DE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8D893F1AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteSkyWatchkit2FactorAuthTests.swift; sourceTree = "<group>"; };
+		0A8D894D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D89501AED8B65000DE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8D89511AED8B65000DE760 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0A8D89521AED8B65000DE760 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A8D89541AED8B65000DE760 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0A8D89581AED8B65000DE760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A8D895C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhiteSkyWatchkit2FactorAuth WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8D89621AED8B65000DE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8D89641AED8B65000DE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A8D89661AED8B65000DE760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8D89211AED8B07000DE760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A717F941AED9E000099FD7B /* WhiteSkyCoreSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D89361AED8B07000DE760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D894A1AED8B65000DE760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8D891B1AED8B07000DE760 = {
+			isa = PBXGroup;
+			children = (
+				0A717F901AED9C610099FD7B /* WhiteSkyCoreSdk.framework */,
+				0A8D89261AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth */,
+				0A8D893C1AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests */,
+				0A8D894E1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension */,
+				0A8D89601AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App */,
+				0A8D89251AED8B07000DE760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8D89251AED8B07000DE760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D89241AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth.app */,
+				0A8D89391AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.xctest */,
+				0A8D894D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex */,
+				0A8D895C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8D89261AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth */ = {
+			isa = PBXGroup;
+			children = (
+				0A717F921AED9D760099FD7B /* WhiteSkyWatchkit2FactorAuth.entitlements */,
+				0A8D89291AED8B07000DE760 /* AppDelegate.swift */,
+				0A8D892B1AED8B07000DE760 /* ViewController.swift */,
+				0A717F8C1AED9C350099FD7B /* BrowserViewController.swift */,
+				0A717F8D1AED9C350099FD7B /* LoginSetupViewController.swift */,
+				0A8D892D1AED8B07000DE760 /* Main.storyboard */,
+				0A8D89301AED8B07000DE760 /* Images.xcassets */,
+				0A8D89321AED8B07000DE760 /* LaunchScreen.xib */,
+				0A8D89271AED8B07000DE760 /* Supporting Files */,
+			);
+			path = WhiteSkyWatchkit2FactorAuth;
+			sourceTree = "<group>";
+		};
+		0A8D89271AED8B07000DE760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D89281AED8B07000DE760 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8D893C1AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D893F1AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.swift */,
+				0A8D893D1AED8B07000DE760 /* Supporting Files */,
+			);
+			path = WhiteSkyWatchkit2FactorAuthTests;
+			sourceTree = "<group>";
+		};
+		0A8D893D1AED8B07000DE760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D893E1AED8B07000DE760 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8D894E1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A717F931AED9D920099FD7B /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.entitlements */,
+				0A8D89521AED8B65000DE760 /* InterfaceController.swift */,
+				0A8D89541AED8B65000DE760 /* NotificationController.swift */,
+				0A8D89581AED8B65000DE760 /* Images.xcassets */,
+				0A8D894F1AED8B65000DE760 /* Supporting Files */,
+			);
+			path = "WhiteSkyWatchkit2FactorAuth WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0A8D894F1AED8B65000DE760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D89501AED8B65000DE760 /* Info.plist */,
+				0A8D89511AED8B65000DE760 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8D89601AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D89631AED8B65000DE760 /* Interface.storyboard */,
+				0A8D89661AED8B65000DE760 /* Images.xcassets */,
+				0A8D89611AED8B65000DE760 /* Supporting Files */,
+			);
+			path = "WhiteSkyWatchkit2FactorAuth WatchKit App";
+			sourceTree = "<group>";
+		};
+		0A8D89611AED8B65000DE760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D89621AED8B65000DE760 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8D89231AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8D89431AED8B07000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth" */;
+			buildPhases = (
+				0A8D89201AED8B07000DE760 /* Sources */,
+				0A8D89211AED8B07000DE760 /* Frameworks */,
+				0A8D89221AED8B07000DE760 /* Resources */,
+				0A8D89711AED8B65000DE760 /* Embed App Extensions */,
+				0A717F961AED9E000099FD7B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8D89691AED8B65000DE760 /* PBXTargetDependency */,
+			);
+			name = WhiteSkyWatchkit2FactorAuth;
+			productName = WhiteSkyWatchkit2FactorAuth;
+			productReference = 0A8D89241AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8D89381AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8D89461AED8B07000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuthTests" */;
+			buildPhases = (
+				0A8D89351AED8B07000DE760 /* Sources */,
+				0A8D89361AED8B07000DE760 /* Frameworks */,
+				0A8D89371AED8B07000DE760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8D893B1AED8B07000DE760 /* PBXTargetDependency */,
+			);
+			name = WhiteSkyWatchkit2FactorAuthTests;
+			productName = WhiteSkyWatchkit2FactorAuthTests;
+			productReference = 0A8D89391AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8D894C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8D896E1AED8B65000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth WatchKit Extension" */;
+			buildPhases = (
+				0A8D89491AED8B65000DE760 /* Sources */,
+				0A8D894A1AED8B65000DE760 /* Frameworks */,
+				0A8D894B1AED8B65000DE760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8D895F1AED8B65000DE760 /* PBXTargetDependency */,
+			);
+			name = "WhiteSkyWatchkit2FactorAuth WatchKit Extension";
+			productName = "WhiteSkyWatchkit2FactorAuth WatchKit Extension";
+			productReference = 0A8D894D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0A8D895B1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8D896B1AED8B65000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth WatchKit App" */;
+			buildPhases = (
+				0A8D895A1AED8B65000DE760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhiteSkyWatchkit2FactorAuth WatchKit App";
+			productName = "WhiteSkyWatchkit2FactorAuth WatchKit App";
+			productReference = 0A8D895C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8D891C1AED8B07000DE760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WhiteSky;
+				TargetAttributes = {
+					0A8D89231AED8B07000DE760 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 59T2J573Y5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0A8D89381AED8B07000DE760 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0A8D89231AED8B07000DE760;
+					};
+					0A8D894C1AED8B65000DE760 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 59T2J573Y5;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0A8D895B1AED8B65000DE760 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A8D891F1AED8B07000DE760 /* Build configuration list for PBXProject "WhiteSkyWatchkit2FactorAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8D891B1AED8B07000DE760;
+			productRefGroup = 0A8D89251AED8B07000DE760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8D89231AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth */,
+				0A8D89381AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests */,
+				0A8D894C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension */,
+				0A8D895B1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8D89221AED8B07000DE760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D892F1AED8B07000DE760 /* Main.storyboard in Resources */,
+				0A8D89341AED8B07000DE760 /* LaunchScreen.xib in Resources */,
+				0A8D89311AED8B07000DE760 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D89371AED8B07000DE760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D894B1AED8B65000DE760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D89591AED8B65000DE760 /* Images.xcassets in Resources */,
+				0A8D895D1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D895A1AED8B65000DE760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D89651AED8B65000DE760 /* Interface.storyboard in Resources */,
+				0A8D89671AED8B65000DE760 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8D89201AED8B07000DE760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D892C1AED8B07000DE760 /* ViewController.swift in Sources */,
+				0A717F8E1AED9C350099FD7B /* BrowserViewController.swift in Sources */,
+				0A717F8F1AED9C350099FD7B /* LoginSetupViewController.swift in Sources */,
+				0A8D892A1AED8B07000DE760 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D89351AED8B07000DE760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D89401AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8D89491AED8B65000DE760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8D89551AED8B65000DE760 /* NotificationController.swift in Sources */,
+				0A8D89531AED8B65000DE760 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8D893B1AED8B07000DE760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8D89231AED8B07000DE760 /* WhiteSkyWatchkit2FactorAuth */;
+			targetProxy = 0A8D893A1AED8B07000DE760 /* PBXContainerItemProxy */;
+		};
+		0A8D895F1AED8B65000DE760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8D895B1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit App */;
+			targetProxy = 0A8D895E1AED8B65000DE760 /* PBXContainerItemProxy */;
+		};
+		0A8D89691AED8B65000DE760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8D894C1AED8B65000DE760 /* WhiteSkyWatchkit2FactorAuth WatchKit Extension */;
+			targetProxy = 0A8D89681AED8B65000DE760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8D892D1AED8B07000DE760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8D892E1AED8B07000DE760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8D89321AED8B07000DE760 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8D89331AED8B07000DE760 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0A8D89631AED8B65000DE760 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8D89641AED8B65000DE760 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8D89411AED8B07000DE760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8D89421AED8B07000DE760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8D89441AED8B07000DE760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhiteSkyWatchkit2FactorAuth/WhiteSkyWatchkit2FactorAuth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WhiteSkyWatchkit2FactorAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0A8D89451AED8B07000DE760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WhiteSkyWatchkit2FactorAuth/WhiteSkyWatchkit2FactorAuth.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WhiteSkyWatchkit2FactorAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0A8D89471AED8B07000DE760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteSkyWatchkit2FactorAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSkyWatchkit2FactorAuth.app/WhiteSkyWatchkit2FactorAuth";
+			};
+			name = Debug;
+		};
+		0A8D89481AED8B07000DE760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteSkyWatchkit2FactorAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteSkyWatchkit2FactorAuth.app/WhiteSkyWatchkit2FactorAuth";
+			};
+			name = Release;
+		};
+		0A8D896C1AED8B65000DE760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WhiteSkyWatchkit2FactorAuth_WatchKit_Extension;
+				INFOPLIST_FILE = "WhiteSkyWatchkit2FactorAuth WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0A8D896D1AED8B65000DE760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WhiteSkyWatchkit2FactorAuth_WatchKit_Extension;
+				INFOPLIST_FILE = "WhiteSkyWatchkit2FactorAuth WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0A8D896F1AED8B65000DE760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WhiteSkyWatchkit2FactorAuth WatchKit Extension/WhiteSkyWatchkit2FactorAuth WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WhiteSkyWatchkit2FactorAuth WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0A8D89701AED8B65000DE760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WhiteSkyWatchkit2FactorAuth WatchKit Extension/WhiteSkyWatchkit2FactorAuth WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "WhiteSkyWatchkit2FactorAuth WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8D891F1AED8B07000DE760 /* Build configuration list for PBXProject "WhiteSkyWatchkit2FactorAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8D89411AED8B07000DE760 /* Debug */,
+				0A8D89421AED8B07000DE760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8D89431AED8B07000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8D89441AED8B07000DE760 /* Debug */,
+				0A8D89451AED8B07000DE760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8D89461AED8B07000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8D89471AED8B07000DE760 /* Debug */,
+				0A8D89481AED8B07000DE760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8D896B1AED8B65000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8D896C1AED8B65000DE760 /* Debug */,
+				0A8D896D1AED8B65000DE760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8D896E1AED8B65000DE760 /* Build configuration list for PBXNativeTarget "WhiteSkyWatchkit2FactorAuth WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8D896F1AED8B65000DE760 /* Debug */,
+				0A8D89701AED8B65000DE760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8D891C1AED8B07000DE760 /* Project object */;
+}

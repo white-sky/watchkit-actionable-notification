@@ -1,0 +1,10 @@
+framework module WhiteSkyCoreSdk {
+  umbrella header "WhiteSkyCoreSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module WhiteSkyCoreSdk.Swift {
+    header "WhiteSkyCoreSdk-Swift.h"
+}
